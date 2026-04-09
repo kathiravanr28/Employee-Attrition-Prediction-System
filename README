@@ -1,0 +1,110 @@
+# 🧠 Employee Attrition Prediction System
+
+## 📌 Project Overview
+This project focuses on analyzing employee data and predicting whether an employee is likely to leave the company using Machine Learning.
+
+Employee attrition is a major concern for organizations, and this system helps in identifying key factors influencing employee turnover.
+
+---
+
+## 🎯 Objectives
+- Perform Exploratory Data Analysis (EDA)
+- Identify factors affecting attrition
+- Build a Machine Learning model to predict attrition
+- Create an interactive web application for predictions
+
+---
+
+## 📊 Dataset
+- Source: Kaggle HR Analytics Dataset
+- Contains employee-related features such as:
+  - Age
+  - Monthly Income
+  - Years at Company
+  - Overtime
+  - Department
+  - Job Role
+
+**Target Variable:**
+- Attrition (Yes/No)
+
+---
+
+## 🔍 Exploratory Data Analysis
+
+Key insights were obtained using visualizations:
+
+- Employee Attrition Count
+- Attrition by Department
+- Salary vs Attrition
+- Age Distribution
+- Overtime vs Attrition
+- Correlation Heatmap
+
+---
+
+## 📸 Visualizations
+
+### Attrition Count
+![Attrition Count](images/attrition_count.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](images/correlation_heatmap.png)
+
+---
+
+## ⚙️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Streamlit
+
+---
+
+## 🤖 Machine Learning Model
+
+- Model Used: Random Forest Classifier
+- Features Used:
+  - Age
+  - Monthly Income
+  - Years at Company
+  - Overtime
+
+- Steps:
+  - Data Preprocessing
+  - Feature Selection
+  - Train-Test Split
+  - Model Training
+  - Evaluation
+
+---
+
+## 📈 Model Performance
+
+- Evaluated using:
+  - Accuracy Score
+  - Confusion Matrix
+  - Classification Report
+
+---
+
+## 💻 Streamlit Application
+
+An interactive web application was built using Streamlit.
+
+### Features:
+- User input form
+- Real-time prediction
+- Simple and user-friendly UI
+
+---
+
+## ▶️ How to Run the Project
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
